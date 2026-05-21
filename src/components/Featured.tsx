@@ -58,8 +58,49 @@ export default function Featured() {
         </div>
       </div>
 
+      {/* Фото кроссовок */}
+      <div className="bg-white px-6 py-20 lg:py-32">
+        <h2 className="uppercase tracking-widest text-sm text-neutral-500 mb-12">Iconic Sneakers</h2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+          {[
+            {
+              name: "adidas Ozweego",
+              year: "2001",
+              img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/files/d3183f33-92c3-4c53-84bb-e0b8b7395f73.jpg",
+            },
+            {
+              name: "adidas Replicant",
+              year: "2016",
+              img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/files/98bbad3a-bc3f-47cb-b293-80658e9a27b7.jpg",
+            },
+            {
+              name: "Raf Simons Antei",
+              year: "2019",
+              img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/files/8239686d-50e9-4009-ab83-4a42ce03ed02.jpg",
+            },
+            {
+              name: "Raf Simons Cylon",
+              year: "2018",
+              img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/files/b2cac151-04a6-4d5a-a039-c6a547f98b68.jpg",
+            },
+          ].map((s) => (
+            <div key={s.name} className="group cursor-default">
+              <div className="overflow-hidden bg-neutral-100 mb-3 aspect-square">
+                <img
+                  src={s.img}
+                  alt={s.name}
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
+                />
+              </div>
+              <p className="text-neutral-900 font-semibold uppercase tracking-tight text-sm">{s.name}</p>
+              <p className="text-neutral-400 text-xs tracking-widest">{s.year}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Кроссовки */}
-      <div id="sneakers" className="bg-white px-6 py-20 lg:py-32">
+      <div id="sneakers" className="bg-white px-6 py-20 lg:py-32 border-t border-neutral-100">
         <h2 className="uppercase tracking-widest text-sm text-neutral-500 mb-12">Кроссовки · Хронология</h2>
         <div className="divide-y divide-neutral-200">
           {sneakers.map((s) => (
