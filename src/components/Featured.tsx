@@ -1,3 +1,46 @@
+import { useState } from "react";
+
+const BioModal = ({ onClose }: { onClose: () => void }) => (
+  <div
+    className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+    onClick={onClose}
+  >
+    <div
+      className="bg-white max-w-2xl w-full max-h-[90vh] overflow-y-auto p-10 relative"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <button
+        onClick={onClose}
+        className="absolute top-6 right-6 text-neutral-400 hover:text-black transition-colors text-xs uppercase tracking-widest"
+      >
+        Закрыть ✕
+      </button>
+      <p className="text-xs uppercase tracking-widest text-neutral-400 mb-4">Биография</p>
+      <h2 className="text-3xl font-bold uppercase tracking-tight mb-8 leading-tight">Raf Simons</h2>
+      <div className="space-y-4 text-neutral-600 text-sm leading-relaxed">
+        <p>
+          Раф Симонс родился 12 января 1968 года в Непелте, Бельгия. Изучал промышленный дизайн в Королевской академии изящных искусств в Антверпене. В начале карьеры работал дизайнером мебели в студии Мартина Маржелы.
+        </p>
+        <p>
+          В 1995 году основал собственный бренд Raf Simons, дебютировав с мужской коллекцией одежды. Его ранние работы вдохновлены молодёжными субкультурами, панк-роком и постиндустриальной эстетикой — Joy Division, New Order, питтсбургская сцена.
+        </p>
+        <p>
+          В 2001 году Симонс начал легендарное сотрудничество с adidas, создав серию кроссовок, переосмысляющих архивные силуэты бренда. Ozweego, Stan Smith, Response Trail — каждая модель стала культовой и перевернула представление о «дизайнерских кроссовках».
+        </p>
+        <p>
+          С 2005 по 2012 год — творческий директор Jil Sander. В 2012–2015 — творческий директор Christian Dior, где создал одни из самых обсуждаемых кутюрных коллекций десятилетия. В 2016–2018 — творческий директор Calvin Klein.
+        </p>
+        <p>
+          В 2020 году Симонс стал содиректором Prada совместно с Миуччей Прадой. Это партнёрство стало событием в мире моды — два равноправных творческих голоса одного из крупнейших домов.
+        </p>
+        <p>
+          Параллельно Raf Simons продолжает развивать собственный бренд с коллекциями одежды и кроссовками — Cylon, Antei, Pharaxus, Ultrasceptre и другими моделями, ставшими объектами культа у коллекционеров по всему миру.
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
 const sneakers = [
   { name: "Raf Simons x adidas Ozweego", year: "2001", note: "Первая культовая коллаборация" },
   { name: "Raf Simons x adidas Stan Smith", year: "2013", note: "Минимализм переосмысленный" },
@@ -12,8 +55,10 @@ const sneakers = [
 ];
 
 export default function Featured() {
+  const [bioOpen, setBioOpen] = useState(false);
   return (
     <div id="history" className="bg-white">
+      {bioOpen && <BioModal onClose={() => setBioOpen(false)} />}
       {/* История */}
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
         <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
@@ -31,7 +76,10 @@ export default function Featured() {
           <p className="text-base text-neutral-500 mb-8 max-w-lg leading-relaxed">
             Его эстетика — это столкновение подростковой субкультуры с высокой модой. Joy Division, панк-рок и архитектурный крой в одном пространстве.
           </p>
-          <button className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest">
+          <button
+            onClick={() => setBioOpen(true)}
+            className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest"
+          >
             Читать биографию
           </button>
         </div>
