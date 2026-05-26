@@ -61,11 +61,11 @@ export default function Featured() {
       {bioOpen && <BioModal onClose={() => setBioOpen(false)} />}
       {/* История */}
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
-        <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
+        <div className="flex-1 h-[300px] lg:h-[500px] mb-8 lg:mb-0 lg:order-2 flex items-center justify-center">
           <img
             src="https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/15fe6ab3-72ec-401d-b382-4acd285e95ce.png"
             alt="Adidas x Raf Simons Ozweego"
-            className="w-full h-full object-cover"
+            className="w-full max-w-lg h-full object-contain"
           />
         </div>
         <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
