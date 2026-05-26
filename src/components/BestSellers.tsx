@@ -1,6 +1,6 @@
 const pairs = [
   {
-    name: "Raf Simons Cylon-21",
+    name: "RAF SIMONS ANTEI",
     colorway: "Grey / Cream",
     year: "2022",
     tag: "#1 Best Seller",
@@ -14,11 +14,11 @@ const pairs = [
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/39574196-4795-42b6-8469-b49245f2a446.png",
   },
   {
-    name: "adidas x Raf Simons Ozweego III",
+    name: "Raf Simons x adidas Ozweego Replicant 'Red Halo Blue'",
     colorway: "Grey / Green",
     year: "2014",
     tag: "Archive Drop",
-    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/6d4e73b5-0dd5-4530-b79a-e2a04aee6919.png",
+    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/969b74fc-60ab-4223-9fce-01c9aa0ab40f.png",
   },
   {
     name: "adidas x Raf Simons Response Trail",
