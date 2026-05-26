@@ -63,8 +63,8 @@ export default function Featured() {
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
         <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
           <img
-            src="https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/files/45f41c39-0ab1-44dc-b2d2-6391f086c5a2.jpg"
-            alt="Raf Simons sneakers"
+            src="https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/15fe6ab3-72ec-401d-b382-4acd285e95ce.png"
+            alt="Adidas x Raf Simons Ozweego"
             className="w-full h-full object-cover"
           />
         </div>
