@@ -11,7 +11,7 @@ const pairs = [
     colorway: "Cream / Ice Blue",
     year: "2018",
     tag: "Iconic Collab",
-    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/5a0e794a-6e18-49b1-8803-b5022a5687b0.png",
+    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/66759ff6-99ab-4b09-9a74-cfe1f15090c8.png",
   },
   {
     name: "adidas x Raf Simons Ozweego III",
