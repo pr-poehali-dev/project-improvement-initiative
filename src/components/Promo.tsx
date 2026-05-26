@@ -94,7 +94,7 @@ export default function Promo() {
           Одежда · Сезоны
         </h3>
 
-        <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-tight">
+        <p className="absolute bottom-12 left-0 right-0 text-center px-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl z-10 leading-tight">
           Оверсайз-куртки, джинсы с патчами, пальто и рубашки — каждая коллекция это письмо молодёжи, которая никогда не взрослеет.
         </p>
       </div>
