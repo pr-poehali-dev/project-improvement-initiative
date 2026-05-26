@@ -8,10 +8,10 @@ const pairs = [
   },
   {
     name: "adidas x Raf Simons Replicant Ozweego",
-    colorway: "Teal / Black",
+    colorway: "Cream / Ice Blue",
     year: "2018",
     tag: "Iconic Collab",
-    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/ac214425-fa23-4177-b7f4-f5f505c0af24.png",
+    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/5a0e794a-6e18-49b1-8803-b5022a5687b0.png",
   },
   {
     name: "adidas x Raf Simons Ozweego III",
@@ -35,7 +35,7 @@ const pairs = [
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/41083e2b-bf7a-4ac1-aa87-55aa5220b172.png",
   },
   {
-    name: "adidas x Raf Simons Replicant Ozweego",
+    name: "Raf Simons Yellow & Pink Pharaxus",
     colorway: "Yellow / Pink",
     year: "2019",
     tag: "Drop of the Year",
