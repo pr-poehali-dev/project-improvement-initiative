@@ -1,10 +1,10 @@
 const pairs = [
   {
-    name: "RAF SIMONS ANTEI",
+    name: "Raf Simons Antei 22",
     colorway: "Grey / Cream",
     year: "2022",
     tag: "#1 Best Seller",
-    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/1e3d89f7-cb02-4c56-a338-36e8f691ffd4.png",
+    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/0baa8d00-84fa-415a-9049-4a56783e0ea1.png",
   },
   {
     name: "Adidas Raf Simons x Ozweego 'Mirrored - Cream White'",
