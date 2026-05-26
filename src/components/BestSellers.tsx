@@ -34,6 +34,13 @@ const pairs = [
     tag: "Fan Favourite",
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/41083e2b-bf7a-4ac1-aa87-55aa5220b172.png",
   },
+  {
+    name: "adidas x Raf Simons Replicant Ozweego",
+    colorway: "Yellow / Pink",
+    year: "2019",
+    tag: "Drop of the Year",
+    img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/093b20ef-a80f-4174-bf5a-ba0518d0e40c.png",
+  },
 ];
 
 export default function BestSellers() {
@@ -43,7 +50,7 @@ export default function BestSellers() {
         <div>
           <p className="uppercase tracking-widest text-neutral-500 text-xs mb-3">Рейтинг</p>
           <h2 className="text-white text-4xl lg:text-6xl font-bold tracking-tight uppercase leading-none">
-            Most<br />Wanted
+            Самые<br />Желаемые
           </h2>
         </div>
         <p className="text-neutral-400 text-sm max-w-xs leading-relaxed">
