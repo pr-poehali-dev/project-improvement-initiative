@@ -7,7 +7,7 @@ const pairs = [
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/1e3d89f7-cb02-4c56-a338-36e8f691ffd4.png",
   },
   {
-    name: "adidas x Raf Simons Replicant Ozweego",
+    name: "Adidas Raf Simons x Ozweego 'Mirrored - Cream White'",
     colorway: "Cream / Ice Blue",
     year: "2018",
     tag: "Iconic Collab",
