@@ -1,7 +1,7 @@
 const pairs = [
   {
     name: "Raf Simons Antei 22",
-    colorway: "Grey / Cream",
+    colorway: "Black / Silver",
     year: "2022",
     tag: "#1 Best Seller",
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/0baa8d00-84fa-415a-9049-4a56783e0ea1.png",
@@ -15,7 +15,7 @@ const pairs = [
   },
   {
     name: "Raf Simons x adidas Ozweego Replicant 'Red Halo Blue'",
-    colorway: "Grey / Green",
+    colorway: "Red / Black / White",
     year: "2014",
     tag: "Archive Drop",
     img: "https://cdn.poehali.dev/projects/cd649764-e8a7-4ac7-9225-09a4663fb23a/bucket/969b74fc-60ab-4223-9fce-01c9aa0ab40f.png",
